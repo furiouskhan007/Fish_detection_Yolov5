@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['grouper', 'northern-red-snapper', 'salmon']
+
+roboflow:
+  workspace: research-vpani
+  project: fish-species-classification
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/research-vpani/fish-species-classification/dataset/1
